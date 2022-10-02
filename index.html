@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <title>This is the title</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!-- <link rel="icon" href="favicon.ico"-->
+</head>
+
+<body>
+    <div class="top-bar">
+        <nav class="navbar is-light" role="navigation" aria-label="main navigation">
+            <div class="navbar-brand">
+              <a class="navbar-item">
+                <img src="https://bulma.io/images/bulma-logo.png" width="112" height="28">
+              </a>
+            </div>
+              <div class="navbar-end">
+                <div class="navbar-item">
+                    <a class="button is-link" onclick="addEvent()">
+                      Add Event
+                    </a>
+                </div>
+              </div>
+            </div>
+          </nav>
+    </div>
+
+    <!--nav bar?-->
+    <div class="nav-bar"> 
+        <center>
+            <div class="content"><h1>Timeline</h1></div>
+            <hr>
+            <ul id="event-list"></ul>
+        </center>
+    </div>
+
+
+    <!--main section-->
+    <div id="main-page">
+        <div id="content">
+            <center>
+                <h1 class="title is-1">titlehere</h1>
+                <hr>
+            </center>
+            <p>stuff</p>
+        </div>
+    </div>
+
+
+    <script src="index.js"></script>
+
+    <script>
+        p = (x) => {
+            console.log(x)
+            events[0]
+        }
+    </script>
+<!---
+    <script type="module">
+        // Import the functions you need from the SDKs you need
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/9.10.0/firebase-app.js";
+        import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.10.0/firebase-analytics.js";
+        // TODO: Add SDKs for Firebase products that you want to use
+        // https://firebase.google.com/docs/web/setup#available-libraries
+    
+        // Your web app's Firebase configuration
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+        const firebaseConfig = {
+        apiKey: "AIzaSyDbWB_-7J_4hBCUb6YpciNr-dbsPfTkJHg",
+        authDomain: "traveler-ec290.firebaseapp.com",
+        projectId: "traveler-ec290",
+        storageBucket: "traveler-ec290.appspot.com",
+        messagingSenderId: "511776717553",
+        appId: "1:511776717553:web:235a385043df033e390750",
+        measurementId: "G-ECJJPBMR38"
+        };
+    
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+        const analytics = getAnalytics(app);
+    </script>
+-->
+</body>
